@@ -19,6 +19,7 @@ body{
     display: flex; 
     flex-direction: column;
     padding-inline: 80px;
+    background-color: rgb(0, 0, 0);
 }
 
 header{
@@ -28,9 +29,12 @@ header{
     align-items: center;
 }
 .logo{
-    height: 96px;
-    width: 96px;
-    background-color: lightgrey;
+    height: 170px;
+    width: 170px;
+    background-image: url(./img/ichigoooopng.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+  
 }
 
 .menu ul{
@@ -59,7 +63,7 @@ main{
 .acao button{
     height: 80px;
     width: 300px;
-    background-color: black;
+    background-color: rgb(101, 23, 211);
     color: white;
     font-size: 32px;
 }
@@ -69,15 +73,29 @@ main{
     justify-content: space-between;
 }
 .social div{
-    height: 96px;
-    width: 96px;
-    background-color: lightgrey;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
+    background-size:100%;
+    background-repeat: no-repeat;
+
+}
+.img1{
+    background-image: url(./img/Instagram_icon.png);
+
+}
+.img2{
+    background-image: url(.//img/whatsapp-33.png);
+}
+.img3{
+    background-image: url(./img/facebook-13.png);
 }
 
 .destaque{
     width: 50%;
-    background-color: lightgrey;
+    background-image: url(./img/ichigo\ 4k.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 footer{
@@ -85,4 +103,16 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+li{
+    color: white;
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+footer{
+    color: white;
 }
